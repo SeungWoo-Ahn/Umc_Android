@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week5.MemoWriting"
+    android:paddingTop="10dp">
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:hint="제목"
+        android:textSize="20sp"/>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_below="@+id/title"/>
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:hint="메모를 작성하세요"
+        android:layout_below="@+id/line"
+        android:layout_above="@+id/add_btn"
+        android:textSize="20sp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="작성하기"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_200"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

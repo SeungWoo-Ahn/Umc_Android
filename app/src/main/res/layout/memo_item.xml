@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="10월 22일"
+        android:textSize="12sp"/>
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="memo content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/date"
+        android:layout_toLeftOf="@+id/memo_switch"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:background="@color/white"
+        android:enabled="false"/>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/memo_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

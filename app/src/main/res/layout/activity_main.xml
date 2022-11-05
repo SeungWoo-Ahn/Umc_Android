@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week4.MainActivity">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="메모를 작성하세요"
+        android:textSize="22sp"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:layout_above="@+id/btnCon"/>
+    <RelativeLayout
+        android:id="@+id/btnCon"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_alignParentBottom="true">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="작성하기"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="@color/teal_200"/>
+    </RelativeLayout>
+
+</RelativeLayout>
