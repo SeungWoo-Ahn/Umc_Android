@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Umc_week4">
         <activity
-            android:name=".week5.MemoWriting"
-            android:exported="false" />
-        <activity
-            android:name=".week5.MemoMain"
+            android:name=".week6.Week6Activity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,11 +19,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".week5.MemoWriting"
+            android:exported="false" />
+        <activity
+            android:name=".week5.MemoMain"
+            android:exported="false"/>
+        <activity
             android:name=".week4.MainActivity2"
             android:exported="false" />
         <activity
             android:name=".week4.MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
     </application>
 
 </manifest>
