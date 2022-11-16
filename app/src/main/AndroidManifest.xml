@@ -10,17 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Umc_week4">
         <activity
-            android:name=".week7.TimeSetActivity"
-            android:exported="false" />
-        <activity
-            android:name=".week7.TimerActivity"
-            android:exported="true">
+            android:name=".week7.MusicPlayerActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".week7.TimeSetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".week7.TimerActivity"
+            android:exported="false"/>
         <activity
             android:name=".week6.Week6Activity"
             android:exported="false" />

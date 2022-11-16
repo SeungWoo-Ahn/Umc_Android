@@ -3,13 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/ic_backward.xml" value="0.2495" />
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/ic_forward.xml" value="0.2495" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/ic_more.xml" value="0.2395" />
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/ic_pause.xml" value="0.2495" />
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/ic_play.xml" value="0.2495" />
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/seek_bg.xml" value="0.1" />
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/seek_bg_light.xml" value="0.1" />
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/seekbar.xml" value="0.1" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/timer_shape.xml" value="0.1" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/drawable/timer_shape_red.xml" value="0.118" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_main.xml" value="0.32447916666666665" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_main2.xml" value="0.34010416666666665" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_memo_main.xml" value="0.33" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_memo_writing.xml" value="0.32447916666666665" />
+        <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_music_player.xml" value="0.34010416666666665" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_time_set.xml" value="0.3390625" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_timer.xml" value="0.33" />
         <entry key="..\:/androidProjects/Umc_week4/app/src/main/res/layout/activity_week6.xml" value="0.20185185185185187" />
