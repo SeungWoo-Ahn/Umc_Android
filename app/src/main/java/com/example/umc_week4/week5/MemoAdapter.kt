@@ -6,9 +6,7 @@ import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
 import android.widget.CompoundButton
-import android.widget.EditText
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.umc_week4.databinding.MemoItemBinding
@@ -33,11 +31,13 @@ class MemoAdapter(private val listData: ArrayList<Memo>): RecyclerView.Adapter<M
             viewBinding.root.setOnClickListener(View.OnClickListener {
                 viewBinding.title.isEnabled = true
                 viewBinding.content.isEnabled = true
+                // sharedPref 변경 필요
                 viewBinding.title.requestFocus()
             })
             viewBinding.root.setOnLongClickListener(View.OnLongClickListener {
                 listData.remove(listData[adapterPosition])
                 notifyItemRemoved(adapterPosition)
+                //sharedPref 삭제 필요
                 Toast.makeText(context,"삭제되었습니다",Toast.LENGTH_SHORT).show()
 
                 return@OnLongClickListener(true)
