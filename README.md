@@ -1,9 +1,10 @@
-# UMC 3기 안드로이드 세미나 과제 모음
+## UMC 3기 안드로이드 세미나 과제 모음
 
 <br/>
 
 + [워크북](https://www.notion.so/makeus-challenge/52a92f8fb3794226aaa4d61b48ace98a?pvs=4)
 + Activity별로 주차별 과제를 진행했습니다
++ Java에서 Kotlin으로 넘어간 계기였고 Android의 개념에 대해 많이 배울 수 있었습니다
 
 <br/>
 
