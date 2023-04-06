@@ -77,7 +77,7 @@
   <br/>
   
   + 4주차 메모장 앱에 RecyclerView 추가
-  + 메모 수정, Custome 기능 추가
+  + 메모 수정, 커스텀 기능 추가
   
   <p align="center">
     <img src="https://user-images.githubusercontent.com/78468001/229691130-e94ec2fd-91b1-474f-8637-575fdc8b8f91.jpg" height="400"/>
